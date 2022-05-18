@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contacto</title>
+	<meta charset=utf-8>
+	<meta name=viewport content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+</head>
+<body class="fondo5">
+	<div id="header">
+		<h1>ARQUITECTURA.COM</h1>
+	</div>
+	<div class="menu">
+		<ul class="list">
+			<li><a href="index.html">Home</a></li>
+			<li><a href="servicios.html">Servicios</a></li>
+			<li><a href="inmobiliaria.html">Inmobiliaria</a></li>
+			<li><a href="nosotros.html">Nostros</a></li>
+			<li><a href="contacto.html">Contacto</a></li>
+		</ul>
+	</div>
+	<div class="titulos">
+		<h3>Contactanos</h3>
+	</div>
+	<div>
+		<a href="contacto.html">Footer</a>
+	</div>
+	<div class="centrar">
+		<label class="text2" for="nombre">Nombre y apellido</label>
+			<form action="contacto.html" method="POST" enctype="multipart/form-data">
+				<input type="text" name="nombre" placeholder="Nombre y apellido">
+			</form>
+		<label class="text2" for="email">Correo electronico</label>
+			<form action="contacto.html" method="POST" enctype="multipart/form-data">
+				<input type="text" name="email" placeholder="email">
+			</form>
+		<label class="text2" for="Que estas buscando=">Que estas buscando?</label>
+			<form action="contacto.html" method="POST" enctype="multipart/form-data">
+				<select>
+					<option value="planos">Diseño de planos</option>
+					<option value="3D">Diseño 3D</option>
+					<option value="inter">Diseño de interior</option>
+					<option value="constr">Mano de obra</option>
+					<option value="mater">Materiales de construccion</option>
+					<option value="ref">Reparacion/Reformas</option>
+				</select>
+			</form>
+		<label class="text2" for="aclaraciones">Describe tu proyecto</label>
+			<form action="contacto.html" method="POST" enctype="multipart/form-data">
+				<textarea name="aclaraciones" placeholder="Descripcion"></textarea>
+			</form>
+		<label class="text2" for="archivo">Si ya tienes una idea subela por este medio!</label>
+			<form action="contacto.html" method="POST" enctype="multipart/form-data">
+				<input type="file" name="archivo">
+			</form>
+			<form action="contacto.html" method="POST" enctype="multipart/form-data">
+				<input type="submit" name="enviar" value="enviar">
+			</form>
+	</div>	
+	<div id="footer">
+		<p>Footer</p>
+	</div>
+</body>
+</html>
