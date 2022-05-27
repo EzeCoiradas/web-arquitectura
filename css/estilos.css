@@ -1,0 +1,45 @@
+#back0{
+		background-color: #9f2854;
+		color: #fbfbfb;
+}
+#text{
+
+}
+.fondo1{
+	background-image: url('../imagenes/wallpaper.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: repeat;
+	height: 100vh;
+}
+.fondo2{
+	background-image: url('../imagenes/wallpaper2.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: repeat;
+	height: 100vh;
+}
+.fondo3{
+	background-image: url('../imagenes/wallpaper3.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: repeat;
+	height: 100vh;
+}
+.fondo4{
+	background-image: url('../imagenes/wallpaper4.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: repeat;
+	height: 100vh;
+}
+.fondo5{
+	background-image: url('../imagenes/wallpaper5.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: repeat;
+	height: 100vh;
+}
+#footer{
+	margin-top: 100vh;
+}	
